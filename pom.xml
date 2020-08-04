@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.mycompany</groupId>
+	<groupId>com.hertz</groupId>
 	<artifactId>maven132</artifactId>
     <version>1.0.0</version>
     <packaging>mule</packaging>
@@ -16,6 +16,12 @@
 		<mule.version>3.8.0</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
 	</properties>
+	
+	<parent>
+		<groupId>com.hertz.mule</groupId>
+		<artifactId>parent-pom</artifactId>
+		<version>1.1</version>
+	</parent>
 
 	<build>
 		<plugins>
